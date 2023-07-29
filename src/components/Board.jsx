@@ -50,10 +50,10 @@ const BoardView = () => {
     <div>
       <div className="details-box">
         <div className="resetButton" onClick={resetGame}>
-          Game
+          New Game
         </div>
         <div className="score-box">
-          <div className="score-header">POINTS</div>
+          <div className="score-header">SCORE</div>
           <div>{board.score}</div>
         </div>
       </div>
